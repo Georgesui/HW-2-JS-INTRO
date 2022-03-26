@@ -10,11 +10,11 @@ console.log('------------- # 5.d');
 console.log(a / b);
 console.log('------------- # 6');
 for (i = 1; i <= 5; i++) {
-	console.log(i)
+	console.log(i);
 };
 console.log('------------- # 7')
 for (k = 5; k >= 1; k--) {
-	console.log(k)
+	console.log(k);
 };
 console.log('------------- # 8')
 function getMarkInfo(condition) {
@@ -24,8 +24,8 @@ function getMarkInfo(condition) {
 		console.log('У вас средний балл');
 	}
 }
-getMarkInfo(10)
-getMarkInfo(1)
+getMarkInfo(10);
+getMarkInfo(1);
 
 console.log('------------- # 9')
 function getDayInfo(position) {
@@ -62,23 +62,21 @@ getDayInfo(3)
 getDayInfo(4)
 getDayInfo(5)
 getDayInfo(6)
-console.log('------------- # 10')
+console.log('------------- # 10');
 let newArray = ['a', 'b', 'c'];
-newArray[3] = 1;
-newArray[4] = 2;
-newArray[5] = 3;
-console.log(newArray)
+newArray.push(1, 2, 3);
+console.log(newArray);
 console.log('------------- # 11')
 const firstArray = [1, 2, 3];
 const secondArray = [4, 5, 6];
-const thirdArray = firstArray.concat(secondArray)
-console.log(thirdArray)
+const thirdArray = firstArray.concat(secondArray);
+console.log(thirdArray);
 console.log('------------- # 12')
 function countNumber(number) {
 	let sum = 0;
 	for (let i = 1; i <= number; i++) {
-		sum += i
+		sum += i;
 	}
-	return sum
+	return sum;
 }
-console.log(countNumber(3))
+console.log(countNumber(3));
